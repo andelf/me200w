@@ -29,7 +29,7 @@ fn your_200w(origin_img: &DynamicImage) {
     println!("saved in `out.200w.png`");
 }
 
-// Note: log_2(8.0) is the feature radius.
+// Note: log_2(8.0) is the feather-radius.
 fn xiaomi_corner(img: &mut RgbaImage, n: f64) {
     let a = img.width() as f64 / 2.0;
     let b = img.height() as f64 / 2.0;
